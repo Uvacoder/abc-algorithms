@@ -16,6 +16,7 @@ export default function Head({
       {description && <meta name="description" content={description} />}
       <meta name="keywords" content={["The Algorithms", ...tags].join(", ")} />
       <meta charSet="utf-8" />
+      <meta property="og:image:url" content="https://repository-images.githubusercontent.com/317667451/6450d900-7ac8-11eb-87c2-6490ed11fbbb" />
       <script type="application/ld+json">
         {`{
   "@context": "https://schema.org",
